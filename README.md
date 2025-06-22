@@ -17,7 +17,7 @@ Este repositório contém o site estático de apresentação do **Psyc**, um apl
 ## Estrutura de Arquivos
 
 ```
-psyif-site/
+psyApp-site/
 ├── about.html            # Página "Sobre": descrição do PsyIF e contexto do projeto
 ├── features.html         # Página "Funcionalidades": lista de recursos em andamento
 ├── technologies.html     # Página "Tecnologias": tecnologias empregadas e motivos de escolha
@@ -25,7 +25,7 @@ psyif-site/
 ├── contact.html          # Página "Contato": links de LinkedIn e e-mail para comunicação
 ├── assets/
 │   ├── css/
-│   │   └── style.css     # Estilos customizados (opcional)
+│   │   └── style.css     # Estilos customizados 
 │   └── images/
 │       ├── logo.png      # Logo do Psyc
 │       ├── member1.jpg   # Fotos dos integrantes 
