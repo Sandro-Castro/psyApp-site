@@ -1,0 +1,14 @@
+/* assets/css/style.css */
+
+/* Example: adjust navbar brand hover */
+.navbar-brand:hover {
+  opacity: 0.8;
+}
+
+/* Example: card image border */
+.card-img-top {
+  border: 2px solid #ddd;
+}
+
+/* Ensure sections have consistent padding (already using py-5) */
+/* Further custom styles can be added here based on your branding */
