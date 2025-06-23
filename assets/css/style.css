@@ -1,14 +1,113 @@
-/* assets/css/style.css */
-
-/* Example: adjust navbar brand hover */
-.navbar-brand:hover {
-  opacity: 0.8;
+:root {
+  --dark-1: #0C2724;
+  --dark-2: #1E433E;
+  --dark-3: #1F5049;
+  --primary-1: #267B6C;
+  --primary-2: #329A86;
+  --primary-3: #51B7A2;
+  --light-1: #78D0BB;
+  --light-2: #AAE5D4;
+  --light-3: #D5F2EA;
 }
 
-/* Example: card image border */
-.card-img-top {
-  border: 2px solid #ddd;
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-/* Ensure sections have consistent padding (already using py-5) */
-/* Further custom styles can be added here based on your branding */
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--light-3);
+  color: var(--dark-1);
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: var(--dark-3) !important;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: var(--light-3) !important;
+}
+
+.navbar .nav-link.active {
+  color: var(--light-2) !important;
+  border-bottom: 2px solid var(--primary-1);
+}
+
+.navbar .nav-link:hover {
+  color: var(--primary-2) !important;
+}
+
+.container h1 {
+  color: var(--primary-1);
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card .card-body .badge {
+  background-color: var(--primary-2);
+  color: var(--dark-1);
+}
+
+.card .card-body .badge.text-dark {
+  color: var(--dark-1);
+}
+
+.card-title {
+  color: var(--primary-3);
+}
+
+footer {
+  background-color: var(--dark-1);
+  color: var(--light-3);
+  text-align: center;
+  padding: 1rem 0;
+  flex-shrink: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--primary-2);
+}
+
+.btn-outline-primary {
+  border-color: var(--primary-1);
+  color: var(--primary-1);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--primary-1);
+  color: var(--light-3);
+  border-color: var(--primary-1);
+}
+
+img.rounded-circle {
+  border: 2px solid var(--light-2);
+}
+
+.list-unstyled a {
+  color: var(--primary-1);
+}
+
+.list-unstyled a:hover {
+  color: var(--primary-2);
+}
