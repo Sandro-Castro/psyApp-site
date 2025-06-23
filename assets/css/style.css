@@ -19,7 +19,7 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
-  background-color: var(--light-3);
+  background-color: white;
   color: var(--dark-1);
   font-family: Arial, sans-serif;
 }
@@ -31,6 +31,7 @@ body {
 .navbar .navbar-brand,
 .navbar .nav-link {
   color: var(--light-3) !important;
+  
 }
 
 .navbar .nav-link.active {
@@ -111,3 +112,4 @@ img.rounded-circle {
 .list-unstyled a:hover {
   color: var(--primary-2);
 }
+
